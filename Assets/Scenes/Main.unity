@@ -785,7 +785,7 @@ MonoBehaviour:
     m_Bits: 64
   blueprints:
   - {fileID: 11400000, guid: 62985e777f2ed3840a88e35c9e2d2d3d, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 7b670ad49876c2743b7a38e9396d223d, type: 2}
   currentIndex: 0
   placeKey: 32
   cancelKey: 27
