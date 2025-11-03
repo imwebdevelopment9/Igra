@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BuildingBlueprintSO
   displayName: Woodcutter Hut
   builtPrefab: {fileID: 692393100380303834, guid: 58540b3da91e0984daf1e177b258b868, type: 3}
-  ghostPrefab: {fileID: 692393100380303834, guid: 58540b3da91e0984daf1e177b258b868, type: 3}
+  ghostPrefab: {fileID: 1472800583780738872, guid: c852cc5e03caf004cb79c797e21a9c8b, type: 3}
   woodCost: 30
   goldCost: 10
   buildTime: 0

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f84b5c54754384d917e1f8e6e06dfe, type: 3}
   m_Name: IronMine
   m_EditorClassIdentifier: Assembly-CSharp::BuildingBlueprintSO
-  displayName: Building
-  builtPrefab: {fileID: 0}
-  ghostPrefab: {fileID: 0}
-  woodCost: 0
-  goldCost: 0
-  buildTime: 0
+  displayName: Iron Mine
+  builtPrefab: {fileID: 5329327074356350934, guid: c852b3065e08e144a896c861b0604f1b, type: 3}
+  ghostPrefab: {fileID: 197290672102524074, guid: 72d2f4ed78fdd3f4e86605ed37cc6274, type: 3}
+  woodCost: 5
+  goldCost: 5
+  buildTime: 5
   ghostOffset: {x: 0, y: 0, z: 0}
