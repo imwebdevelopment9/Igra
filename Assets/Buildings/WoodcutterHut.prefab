@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8704813815464234857}
   - component: {fileID: 2270626215727797962}
   - component: {fileID: 6579069574108451628}
-  - component: {fileID: 7581569339550502405}
+  - component: {fileID: 7185981213608804708}
   m_Layer: 0
   m_Name: WoodcutterHut
   m_TagString: Untagged
@@ -110,9 +110,9 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7581569339550502405
+--- !u!114 &7185981213608804708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,9 +121,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 692393100380303834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1514528af7b64d42888526d60468367, type: 3}
+  m_Script: {fileID: 11500000, guid: ea642cbdeb333ba46949b28a686851ef, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BuildingProducer
+  m_EditorClassIdentifier: Assembly-CSharp::ProducerBuffer
   type: 0
-  amount: 1
+  produceAmount: 1
   interval: 5
+  stock: 0
+  stockCap: 50

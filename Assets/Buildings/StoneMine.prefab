@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4505010598760308077}
   - component: {fileID: 2092583639412292238}
   - component: {fileID: 4575406386952579177}
-  - component: {fileID: 4815737751589228518}
+  - component: {fileID: 8857859096776159648}
   m_Layer: 0
   m_Name: StoneMine
   m_TagString: Untagged
@@ -113,7 +113,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &4815737751589228518
+--- !u!114 &8857859096776159648
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,9 +122,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 615049900951992320}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1514528af7b64d42888526d60468367, type: 3}
+  m_Script: {fileID: 11500000, guid: ea642cbdeb333ba46949b28a686851ef, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BuildingProducer
+  m_EditorClassIdentifier: Assembly-CSharp::ProducerBuffer
   type: 1
-  amount: 1
+  produceAmount: 1
   interval: 20
+  stock: 0
+  stockCap: 50
